@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lavu's portfolio..</title>
+    <link rel="stylesheet" href="task2.css">
+    <link rel="icon" href="portfolio1.jpg">
+</head>
+<body style="background-color: rgba(230, 218, 218, 0.753);">
+    <nav class="header">
+            <img src="portfolio2.jpeg"height="50px" width="50px">
+        <ul class="lav"style="margin-bottom: 10px;">
+            <li style="margin-left: 650px;"><a href=".home" onclick="smoothScroll('.home')">Home</a></li>
+            <li style="margin-left: 30px;"><a href=".skills" onclick="smoothScroll('.skills')">Skills</a></li>
+            <li style="margin-left: 30px;"><a href=".project" onclick="smoothScroll('.project')">Projects</a></li>
+            <li style="margin-left: 30px;"><a href=".certi" onclick="smoothScroll('.certi')">Certifications</a></li>
+            <li style="margin-left: 30px;"><a href=".resume" onclick="smoothScroll('.resume')">Resume</a></li>
+            <li style="margin-left: 30px;"><a href=".contact" onclick="smoothScroll('.contact')">Contacts</a></li>
+        </ul>
+    </nav>
+    <section class="home">
+        <div class="la1" style="margin-left:50px;">
+        <h1 style="display: inline-block; margin-left: 50px;margin-bottom: 100px;"><i>Hi,I am Lavaniya M</i></h1>
+        <img src="WhatsApp Image 2024-01-23 at 10.29.09 PM.jpeg" height="300px" width="250px" style="display: inline-block;text-align: right;margin-left: 400px;margin-top: 100px;">
+       </div>
+        <div class="la2" style="margin-top: 80px;" >
+        <h2 class="one">ABOUT</h2>
+        <p class="p"><b><i>Passionate about web development, I've mastered HTML, CSS, and JavaScript through YouTube,<br>
+            creating dynamic front-end experiences. Proficient in C programming for back-end development,<br>
+            coupled with a foundational understanding of Python. Holder of a Google Cybersecurity certification,<br>
+            I've delved into the principles of communication and MEMS-based sensors through NPTEL courses.<br>
+            My strong work ethic and loyalty position me as a dedicated learner eager to contribute to a dynamic role<br>
+            within a reputable company.</i></b></p>
+        </div>
+    </section>
+    <section class="skills" style="margin-top: 50px;">
+        <h2>SKILLS</h2>
+        <div class="s1" style="margin-top: 10px;">
+        <h3>FRONT END</h3>
+          <h4>html</h4>
+          <h4>css</h4>
+          <h4>java script</h4>
+        </div>  
+        <div class="s2" style="margin-top:10px ;">
+        <h3>BACKEND</h3>
+         <h4>c </h4>
+         <h4>python</h4>
+         <h4>java basics</h4>
+        </div>
+    </section>
+    <section class="project">
+        <h2>PROJECTS</h2>
+        <img src="WhatsApp Image 2024-01-30 at 8.21.44 PM.jpeg" height="200px" width="400px" style="margin-left: 450px;">
+    </section>
+    <section class="certi">
+        <h2>CERTIFICATIONS</h2>
+        <img src="WhatsApp Image 2024-01-23 at 9.53.10 PM.jpeg" height="200px" width="200px" style="margin-left: 200px;padding: 10px;">
+        <img src="WhatsApp Image 2024-01-23 at 9.53.40 PM.jpeg" height="200px" width="200px"style="margin-left: 70px;padding: 10px;">
+        <img src="WhatsApp Image 2024-01-23 at 9.53.41 PM (1).jpeg" height="200px" width="200px"style="margin-left: 70px;padding: 10px;">
+        <img src="WhatsApp Image 2024-01-23 at 9.53.41 PM.jpeg" height="200px" width="200px" style="margin-left: 200px;padding: 10px;">
+        <img src="WhatsApp Image 2024-01-23 at 9.53.42 PM (1).jpeg" height="200px" width="200px"style="margin-left: 70px;padding: 10px;">
+        <img src="WhatsApp Image 2024-01-23 at 9.53.42 PM.jpeg" height="200px" width="200px"style="margin-left: 70px;padding: 10px;" >
+    </section>
+    <section class="resume">
+        <h2>RESUME</h2>
+        <a href="C:\Users\156847\Desktop\codsoft-task2\lavaniyamanikandan2426@gmail.com.pdf" target="_blank"  style="margin-left: 590px;color: black;">download here</a>
+    </section>
+    <section class="contact">
+        <h2>CONTACTS</h2>
+        <h5>+91 9363453185</h5>
+        <h5>lavaniyamanikandan2426@gmail.com</h5>
+    </section>
+    <div class="footer">
+        <p style="margin-left: 450px;padding: 10px;">Copyright @2024; Designed by M.Lavaniya.All rights reserved.</p>
+        
+
+    </div>
+    <script>
+        function smoothScroll(targetClass){
+            const targetSection = document.querySelector(targetClass);
+            window.scrollTo({
+                top: targetSection.offsetTop, behavior:'smooth'});
+            }
+        
+        
+    </script>
+
+</body>
+</html>

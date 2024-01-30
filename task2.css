@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    
+   display: inline-block;
+}
+li,ul{
+    display: inline-block;
+}
+.header{
+    margin-bottom: 20px;
+}
+li:hover{
+    color:brown;
+    cursor: pointer;
+}
+.contact{
+    color: brown;
+    display: inline-block;
+    margin-left: 400px;
+    padding:30px;
+}
+.la2{
+    text-align:center;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    color: brown;
+    padding: 10px;
+}
+h3{
+    color: brown;
+}
+h4{
+    padding: 5px;
+}
+.p{
+    padding: 10px;
+}
+.skills{
+    padding: 20px;
+}
+.s1{
+    margin-left: 400px;
+    display: inline-block;
+    padding: 2px;
+}
+.s2{
+    margin-left: 200px;
+    display: inline-block;
+    padding: 2px;
+}
+h5{
+    display: inline-block;
+    margin-left: 50px;
+
+}
+.certi{
+    padding: 50px;
+}
